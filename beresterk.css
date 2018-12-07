@@ -2,10 +2,11 @@ body{
 	background-color: #f3f3f3;
 	padding:0;
 	margin:0;
+	font-family:lucida sans typewriter;
 }
 
 .page {
-	margin: 40px auto;
+	margin: 0px auto;
 	border: 2px solid black;
 	border-radius: 15px;
 	background-color: white;
@@ -17,30 +18,38 @@ body{
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:center -60px;
-	padding: 100px 20px 0px 20px;
+	padding: 100px 20px 200px 20px;
+	overflow: hidden;
 }
 
 .main-nav a{
 	display:inline-block;
-	border-radius: 5px 0px 0px 0px;
-	border-bottom: 10px solid white;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom: 10px solid #b68052;
 	background-color:rgba(255, 255, 255, 0.64);
 	color:black;
 	text-decoration:none;
 	padding: 5px 10px;
 	position:relative;
-	top:-10px;
+	top:210px;
 	transition: top 300ms ease;
 }
 
 .main-nav a:hover{
-	top:5px;
+	top:200px;
 }
 
 .page-content{
 	padding: 20px;
 }
 
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 500px;
+}
 h1{
 	background-color: #b68052;
 	margin: 20px;
@@ -49,7 +58,7 @@ h1{
 }
 
 h2{
-  font-family:Georgia;
+  font-family:lucida sans typewriter;
 }
 
 .top-nav ul{
@@ -63,5 +72,5 @@ h2{
 }
 
 .top-nav ul li:hover{
-	left: 4px;
+	left: 6px;
 }
